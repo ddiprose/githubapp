@@ -1,0 +1,23 @@
+{
+  "name": "mithril-modules",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.8.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-browserify": "^0.5.0",
+    "gulp-concat": "^2.3.4",
+    "gulp-load-plugins": "^0.6.0",
+    "gulp-uglify": "^0.3.2",
+    "gulp-util": "~3.0.1",
+    "del": "~0.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
