@@ -18,8 +18,8 @@ var pieChartConfig = function(data) {
         if(!isInitialized) {
             nv.addGraph(function() {
                 var chart = nv.models.pieChart()
-                  .x(function(d) { return d.label })
-                  .y(function(d) { return d.value })
+                  .x(function(d) { return d.label; })
+                  .y(function(d) { return d.value; })
                   .showLabels(true);
 
                 d3.select(element)
@@ -42,7 +42,7 @@ var view = function(ctrl) {
             m('a[href=' + urls.userUrl(ctrl.userName) + ']', {config: m.route}, 'back'),
             content
         ]);
-    }
+    };
 
     if(languages.error()) {
         return wrapper(m('div', languages.error()));

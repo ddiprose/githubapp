@@ -10,4 +10,4 @@ module.exports = {
     repoUrl: function(userName, repoName) {
         return base + '/' + userName + '/' + repoName;
     }
-}
+};

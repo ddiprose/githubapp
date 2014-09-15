@@ -7,4 +7,4 @@ module.exports = {
     repoLanguagesUrl: function(userName, repoName) {
         return base + '/repos/' + userName + '/' + repoName + '/languages';
     }
-}
+};

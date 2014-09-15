@@ -15,7 +15,7 @@ var controller = function() {
 
     this.selectUser = function() {
         m.route(urls.userUrl(this.user()));
-    }
+    };
 };
 
 var view = function(ctrl) {

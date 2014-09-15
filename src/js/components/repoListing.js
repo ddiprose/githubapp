@@ -14,7 +14,7 @@ var view = function(ctrl) {
             m('a[href=' + urls.homeUrl() + ']', {config: m.route}, 'back'),
             content
         ]);
-    }
+    };
 
     if(repositories.error()) {
         return wrapper(m('div', repositories.error()));
